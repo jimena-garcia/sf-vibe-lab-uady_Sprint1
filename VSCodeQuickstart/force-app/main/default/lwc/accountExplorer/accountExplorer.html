@@ -1,0 +1,36 @@
+<template>
+    <lightning-card title="Account Explorer" icon-name="standard:account">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <lightning-input
+                type="search"
+                label="Search accounts by name"
+                value={searchTerm}
+                onchange={handleSearch}
+            ></lightning-input>
+        </div>
+
+        <template lwc:if={isLoading}>
+            <lightning-spinner alternative-text="Loading accounts"></lightning-spinner>
+        </template>
+        <template lwc:elseif={hasError}>
+            <div class="slds-p-around_medium slds-text-color_error">
+                Unable to load accounts.
+            </div>
+        </template>
+
+        <template lwc:elseif={hasAccounts}>
+            <lightning-datatable
+                key-field="Id"
+                data={filteredAccounts}
+                columns={columns}
+                hide-checkbox-column
+            ></lightning-datatable>
+        </template>
+
+        <template lwc:else>
+            <div class="slds-p-around_medium slds-text-align_center">
+                No accounts found.
+            </div>
+        </template>
+    </lightning-card>
+</template>
