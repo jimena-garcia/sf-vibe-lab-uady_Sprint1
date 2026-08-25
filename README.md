@@ -17,15 +17,19 @@ Once the environments were securely connected and verified, I designed prompts f
 ## Project Evidence
 As required by the sprint guidelines, screenshots verifying the working environments and deployed projects are included in this repository. 
 
-* **Valid Salesforce DX Project:** ![alt text](image-2.png)
-* **Successful Account Query:** ![alt text](image-1.png)
-* **Salesforce Org Authenticated:** ![alt text](image.png)
-* **Successful Source Deployment:** 
+* **Valid Salesforce DX Project:** 
+![alt text](image-2.png)
+* **Successful Account Query:** 
+![alt text](image-1.png)
+* **Salesforce Org Authenticated:** 
+![alt text](image.png)
 * **Node.js, npm, and React Environment:** 
   ![alt text]({52A53840-8640-4E86-A452-A1BEF82E32B0}.png)
   ![alt text]({F2A18717-FA45-444A-9AAD-BD37E45D17E6}.png)
-* **Account Explorer LWC:**![alt text](image-3.png)
-* **React Account Explorer:** ![alt text]({F1AE0A70-8A81-4840-B947-85C9CDE39843}.png)
+* **Account Explorer LWC:**
+![alt text](image-3.png)
+* **React Account Explorer:** 
+![alt text]({F1AE0A70-8A81-4840-B947-85C9CDE39843}.png)
 
 ---
 
