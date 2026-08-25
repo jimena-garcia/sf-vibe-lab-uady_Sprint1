@@ -10,18 +10,6 @@ This repository contains my individual submission for the Professional Readiness
 2. A **React Application** running entirely locally.
 
 ## How I Built It
-I built this project by using my prompt engineering skills to generate the core logic and styling, while manually handling the environment setup and system integrations. Following the steps from the required Trailhead Quick Start modules, I personally configured my local workspace, authenticated the Salesforce CLI, and connected the valid Salesforce DX project to my own org.
-
-## Project Evidence
-As required by the sprint guidelines, screenshots verifying the working environments and deployed projects are included in this repository. 
-  
-  
-  
-
-
-  
-
-## How I Built It
 I built this project by usaing prompts to generate the core logic and styling, while manually handling the environment setup and system integrations for both platforms. Following the steps from the required Trailhead Quick Start modules, I configured my local workspace, authenticated the Salesforce CLI, and connected the valid Salesforce DX project to my own org. I also set up my local web development environment, ensuring Node.js and npm were properly installed and verified to run the React application locally.
 
 Once the environments were securely connected and verified, I designed prompts for Copilot to generate the Apex controller, the LWC wiring, and the React components. After the AI provided the foundational code and Salesforce-branded styling, my primary work consisted of parsing the documentation, assembling the components in VS Code, executing the source deployments, and testing the environments to ensure all acceptance criteria were strictly met.
