@@ -1,0 +1,85 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+secrets.json
+secrets/
+.npmrc
+
+# Salesforce CLI
+.sfdx/
+.sf/
+.forceignore
+.forceignore.local
+.sfdx/
+.salesforcedx/
+*.sfdx
+*.org
+*.scratch
+
+# Salesforce metadata and local state
+.sfdx/
+.sf/
+coverage/
+test-results/
+.sfdx-config.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnpm-store/
+
+# React / Create React App
+build/
+dist/
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
